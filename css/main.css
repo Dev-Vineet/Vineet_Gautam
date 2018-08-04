@@ -13,9 +13,9 @@ body{
 #header{
   position: sticky;
   top: 0px;
-  background-color: #de3030;
   margin: 0px;
   padding: 0px;
+  background-color: #fff;
 }
 
 #nav{
@@ -30,12 +30,12 @@ margin: 0px;
 }
 
 .nav-links:hover{
-  background-color: #000;
-  color: #0f0;
+  background-color: #0058ff;
+  color: #020202;
 }
 
 .nav-links:active{
-  background-color: #ff0;
+  background-color: #0058ffa1;
   color: #00f;
 }
 
