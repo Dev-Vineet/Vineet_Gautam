@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: Lato,Archivo,sans-serif;
+  letter-spacing: 1.5px;
+}
+
+#header{
+  position: sticky;
+  top: 0px;
+  background-color: #de3030;
+  margin: 0px;
+  padding: 0px;
+}
+
+#nav{
+padding: 10px 0;
+margin: 0px;
+}
+
+.nav-links{
+  font-weight: normal;
+  font-style: normal;
+  padding: 10px 30px;
+}
+
+.nav-links:hover{
+  background-color: #000;
+  color: #0f0;
+}
+
+.nav-links:active{
+  background-color: #ff0;
+  color: #00f;
+}
+
+#hey{
+  display: inline-block;
+  font-family: Pacifico,Lato,Archivo,sans-serif;
+  font-size: 80px;
+  color: #0058ff;
+  margin: 0px;
+}
+
+#hi{
+  width: 10%;
+  height: 10%;
+}
+
+main{
+  font-size: 20px;
+  text-align: justify;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+  font-weight: bold;
+  font-style: italic;
+}
+
+a:hover{
+  color: #0f0;
+}
+
+a:active{
+  color: #f00;
+}
+
+#welcome{
+    padding: 10px 20px;
+}
+
+#about_me{
+  padding: 70px 50px;
+
+}
+
+#index{
+  padding: 10px;
+}
+
+#websites{
+  text-align:center;
+}
+
+#study{
+  width: 10%;
+  height: 10%;
+}
+
+.para{
+  display: inline-block;
+  width: 80%;
+}
