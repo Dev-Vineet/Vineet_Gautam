@@ -135,6 +135,10 @@ footer{
       width: 100%;
     }
 
+    header nav li{
+      padding: 0 10px;
+    }
+
     header{
       padding-bottom: 20px;
     }
