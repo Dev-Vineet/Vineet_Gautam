@@ -84,13 +84,14 @@ header a:hover{
 #showcase{
   min-height: 150px;
   text-align: center;
-  margin: 20px;
+  padding-top:20px;
 }
 #showcase h1{
   font-family: Pacifico;
   font-size: 70px;
   display: inline;
   color: #e8491d;
+  margin: 0px;
 }
 
 #showcase p{
@@ -123,4 +124,28 @@ footer{
   color:#fff;
   background-color:#e8491d;
   text-align: center;
+}
+
+@media(max-width: 760px){
+    header #branding,
+    header nav,
+    header nav li{
+      float: none;
+      text-align: center;
+      width: 100%;
+    }
+
+    header{
+      padding-bottom: 20px;
+    }
+
+    #showcase{
+      padding-top: 0px;
+    }
+
+    #about_me div{
+      padding-top: 0px;
+    }
+
+
 }
