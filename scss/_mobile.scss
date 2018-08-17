@@ -1,9 +1,15 @@
 //Widescreens
 @include mediaXl {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 // Dextops and Laptops
 @include mediaLg {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 //Tablets & small Laptops
 @include mediaMd {
@@ -54,6 +60,10 @@
 
     grid-template-columns: 1fr;
   }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 //Smartphones
@@ -66,5 +76,9 @@
   #home {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
   }
 }
